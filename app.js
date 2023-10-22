@@ -46,6 +46,7 @@ function render() {
             listElement.insertAdjacentHTML('beforeend', getNodeTemplate(notes[i], i))
         }
 }
+
 render()
 
 createBtn.onclick = function() {
